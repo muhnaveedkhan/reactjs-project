@@ -1,17 +1,16 @@
 import './App.css';
-import Student from './components/Student';
+import StudentB from './components/StudentB';
 
 function App() {
   return (
     <div className="App">
       <h1> Bismillah</h1>
-      <Student name="Adil" age = {21} program="BSIT" />
-      <Student name="Naveed" age = {24} program="BSSE" />
-      <Student name="Wasim" age = {21} program="BSCS" />
-      <Student name="Faizan" age = {25} program="BS" />
-      <Student name="Noman" age = {23} program="BSIT" />
+      <StudentB name="Adil" age = {23} program="BSIT" />
+      <StudentB name="Tahir" age = {23} program="BSCS" />
+     
     </div>
   );
 }
 
 export default App;
+
